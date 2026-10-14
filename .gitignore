@@ -1,2 +1,5 @@
 node_modules/
 .env
+
+# Wavefront models. A global ignore treats *.obj as compiled objects.
+!*.obj
