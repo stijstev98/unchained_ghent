@@ -1,0 +1,47 @@
+# materials for vehicles/tram. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl dest
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/vehicles/tram-dest-3.png
+
+newmtl phong_plain_2a3644
+Kd 0.1647 0.2118 0.2667
+
+newmtl plain_1d1f22
+Kd 0.1137 0.1216 0.1333
+
+newmtl plain_2a2d31
+Kd 0.1647 0.1765 0.1922
+
+newmtl plain_3a3d42
+Kd 0.2275 0.2392 0.2588
+
+newmtl plain_8e979e
+Kd 0.5569 0.5922 0.6196
+
+newmtl plain_b8bcc2
+Kd 0.7216 0.7373 0.7608
+
+newmtl plain_c9ccd0
+Kd 0.7882 0.8000 0.8157
+
+newmtl shadowpad
+Kd 0.0000 0.0000 0.0000
+d 0.280
+
+newmtl tex_vehicles-tram-front_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/vehicles/tram-front.png
+
+newmtl tex_vehicles-tram-side_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/vehicles/tram-side.png
+
+newmtl unlit_plain_ff3b2e
+Kd 1.0000 0.2314 0.1804
+
+newmtl unlit_plain_ffa21e
+Kd 1.0000 0.6353 0.1176
+
+newmtl unlit_plain_fff3cf
+Kd 1.0000 0.9529 0.8118

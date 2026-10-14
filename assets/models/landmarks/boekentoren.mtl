@@ -1,0 +1,14 @@
+# materials for landmarks/boekentoren. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-concrete_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/specialty/landmarks/concrete.png
+
+newmtl plain_b8b2a5
+Kd 0.7216 0.6980 0.6471
+
+newmtl plain_7f9fae
+Kd 0.4980 0.6235 0.6824
+
+newmtl plain_d2cdc1
+Kd 0.8235 0.8039 0.7569

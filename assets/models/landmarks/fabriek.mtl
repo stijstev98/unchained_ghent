@@ -1,0 +1,20 @@
+# materials for landmarks/fabriek. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-brick-arch_a05a48
+Kd 0.6275 0.3529 0.2824
+map_Kd ../../textures/specialty/landmarks/brick-arch.png
+
+newmtl plain_8e979e
+Kd 0.5569 0.5922 0.6196
+
+newmtl plain_4a5a62
+Kd 0.2902 0.3529 0.3843
+
+newmtl plain_8e5040
+Kd 0.5569 0.3137 0.2510
+
+newmtl plain_5a3a30
+Kd 0.3529 0.2275 0.1882
+
+newmtl plain_3b2a20
+Kd 0.2314 0.1647 0.1255

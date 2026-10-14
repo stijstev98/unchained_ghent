@@ -1,0 +1,7 @@
+# materials for props/tree-grate. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_2a2d31
+Kd 0.1647 0.1765 0.1922
+
+newmtl plain_6a5040
+Kd 0.4157 0.3137 0.2510

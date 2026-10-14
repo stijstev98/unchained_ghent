@@ -1,0 +1,5 @@
+# materials for buildings/poster. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl poster_face
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/student/poster-0.png

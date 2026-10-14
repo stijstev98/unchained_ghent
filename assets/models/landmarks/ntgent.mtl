@@ -1,0 +1,30 @@
+# materials for landmarks/ntgent. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-stone_d5cbb6
+Kd 0.8353 0.7961 0.7137
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png
+
+newmtl plain_cdc3ad
+Kd 0.8039 0.7647 0.6784
+
+newmtl tex_landmarks-brick-arch_d5cbb6
+Kd 0.8353 0.7961 0.7137
+map_Kd ../../textures/specialty/landmarks/brick-arch.png
+
+newmtl plain_2a3340
+Kd 0.1647 0.2000 0.2510
+
+newmtl unlit_alpha50_tex_landmarks-mosaic_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/specialty/landmarks/mosaic.png
+
+newmtl unlit_tex_landmarks-anno-plaque_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/specialty/landmarks/anno-plaque.png
+
+newmtl plain_5a4a2a
+Kd 0.3529 0.2902 0.1647

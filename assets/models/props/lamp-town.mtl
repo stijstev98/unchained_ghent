@@ -1,0 +1,7 @@
+# materials for props/lamp-town. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_3a3f44
+Kd 0.2275 0.2471 0.2667
+
+newmtl unlit_plain_ffe3b0
+Kd 1.0000 0.8902 0.6902

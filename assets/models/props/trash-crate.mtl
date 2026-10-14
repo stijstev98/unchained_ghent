@@ -1,0 +1,7 @@
+# materials for props/trash-crate. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl crate
+Kd 0.7843 0.1255 0.1647
+
+newmtl plain_2f5a2a
+Kd 0.1843 0.3529 0.1647

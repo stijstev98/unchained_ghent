@@ -1,0 +1,10 @@
+# materials for landmarks/dokcrane. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_2a5fa8
+Kd 0.1647 0.3725 0.6588
+
+newmtl plain_1b2a40
+Kd 0.1059 0.1647 0.2510
+
+newmtl plain_9fc3e8
+Kd 0.6235 0.7647 0.9098

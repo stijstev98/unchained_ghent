@@ -1,0 +1,10 @@
+# materials for props/traffic-cone. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_ff6a13
+Kd 1.0000 0.4157 0.0745
+
+newmtl plain_eef1f3
+Kd 0.9333 0.9451 0.9529
+
+newmtl plain_26292d
+Kd 0.1490 0.1608 0.1765

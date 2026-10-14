@@ -1,0 +1,19 @@
+# materials for landmarks/kiosk. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_ece8df
+Kd 0.9255 0.9098 0.8745
+
+newmtl plain_2f4a3f
+Kd 0.1843 0.2902 0.2471
+
+newmtl plain_ffffff
+Kd 1.0000 1.0000 1.0000
+
+newmtl plain_f2c14e
+Kd 0.9490 0.7569 0.3059
+
+newmtl plain_c94f3d
+Kd 0.7882 0.3098 0.2392
+
+newmtl plain_9b6ad0
+Kd 0.6078 0.4157 0.8157

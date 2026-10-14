@@ -1,0 +1,10 @@
+# materials for vehicles/car-door-sedan. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl paint
+Kd 1.0000 0.0000 1.0000
+
+newmtl plain_2a3a48
+Kd 0.1647 0.2275 0.2824
+
+newmtl plain_1d1f22
+Kd 0.1137 0.1216 0.1333

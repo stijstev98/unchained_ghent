@@ -1,0 +1,13 @@
+# materials for landmarks/michiels. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-gothic_a39d8f
+Kd 0.6392 0.6157 0.5608
+map_Kd ../../textures/specialty/landmarks/gothic.png
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png
+
+newmtl tex_landmarks-stone_a39d8f
+Kd 0.6392 0.6157 0.5608
+map_Kd ../../textures/specialty/landmarks/stone.png

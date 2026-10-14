@@ -1,0 +1,10 @@
+# materials for props/cave. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl vcol_plain_ffffff
+Kd 1.0000 1.0000 1.0000
+
+newmtl plain_2b2f33
+Kd 0.1686 0.1843 0.2000
+
+newmtl unlit_plain_ffd9a0
+Kd 1.0000 0.8510 0.6275

@@ -1,0 +1,10 @@
+# materials for props/trash-bin. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_4a5560
+Kd 0.2902 0.3333 0.3765
+
+newmtl plain_1d1f22
+Kd 0.1137 0.1216 0.1333
+
+newmtl plain_23262a
+Kd 0.1373 0.1490 0.1647

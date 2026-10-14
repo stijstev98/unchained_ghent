@@ -1,0 +1,13 @@
+# materials for props/stop-kerb. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_eeeae0
+Kd 0.9333 0.9176 0.8784
+
+newmtl plain_d6d0c2
+Kd 0.8392 0.8157 0.7608
+
+newmtl plain_f0e6b8
+Kd 0.9412 0.9020 0.7216
+
+newmtl plain_2b2f33
+Kd 0.1686 0.1843 0.2000

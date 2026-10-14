@@ -1,0 +1,7 @@
+.git
+.env
+node_modules
+tools
+textures-src
+_backup_before_rider_glb
+_backup_before_new_car

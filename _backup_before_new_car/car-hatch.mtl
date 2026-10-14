@@ -1,0 +1,55 @@
+# materials for vehicles/car-hatch. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl paint_side
+Kd 1.0000 0.0000 1.0000
+map_Kd ../../textures/vehicles/car-side-hatch.png
+
+newmtl paint
+Kd 1.0000 0.0000 1.0000
+
+newmtl glass_plain_2c3a46_o72
+Kd 0.1725 0.2275 0.2745
+d 0.720
+
+newmtl plain_1d1f22
+Kd 0.1137 0.1216 0.1333
+
+newmtl plain_2a2d31
+Kd 0.1647 0.1765 0.1922
+
+newmtl plain_1a1c1f
+Kd 0.1020 0.1098 0.1216
+
+newmtl tex_vehicles-wheel-rim_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/vehicles/wheel-rim.png
+
+newmtl tex_vehicles-car-grille_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/vehicles/car-grille.png
+
+newmtl unlit_plain_eef4ff
+Kd 0.9333 0.9569 1.0000
+
+newmtl unlit_plain_ffffff
+Kd 1.0000 1.0000 1.0000
+
+newmtl unlit_plain_c81e1e
+Kd 0.7843 0.1176 0.1176
+
+newmtl unlit_plain_ff6a5a
+Kd 1.0000 0.4157 0.3529
+
+newmtl unlit_plain_ffa21e
+Kd 1.0000 0.6353 0.1176
+
+newmtl unlit_tex_vehicles-license-plate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/vehicles/license-plate.png
+
+newmtl plain_eef1f3
+Kd 0.9333 0.9451 0.9529
+
+newmtl shadowpad
+Kd 0.0000 0.0000 0.0000
+d 0.280

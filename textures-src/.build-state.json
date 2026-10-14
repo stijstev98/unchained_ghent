@@ -1,0 +1,702 @@
+{
+ "bays/modern/a": {
+  "stamp": "1791918455345.9744:249303",
+  "texture": "kept",
+  "height": "none"
+ },
+ "bays/modern/b": {
+  "stamp": "1791918456110.9534:261145",
+  "texture": "kept",
+  "height": "none"
+ },
+ "bays/modern/c": {
+  "stamp": "1791918456894.1099:245152",
+  "texture": "kept",
+  "height": "none"
+ },
+ "bays/modern/tower-glass": {
+  "stamp": "1791918457659.4248:249148",
+  "texture": "kept",
+  "height": "none"
+ },
+ "bays/modern/tower-residential": {
+  "stamp": "1791918458415.6042:249675",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/beer": {
+  "stamp": "1791918422544.63:254209",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/bike-mark": {
+  "stamp": "1791918420995.596:252609",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/cloud": {
+  "stamp": "1791918424790.7744:287175",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/coin": {
+  "stamp": "1791918425547.1243:279797",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/hazard-stripe": {
+  "stamp": "1791918423290.8257:239916",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/manhole": {
+  "stamp": "1791918420220.6113:244810",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/smoke": {
+  "stamp": "1791918424041.1372:249290",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/vomit": {
+  "stamp": "1791918421763.2222:252440",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/yell-0": {
+  "stamp": "1791918426293.4668:261160",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/yell-1": {
+  "stamp": "1791918427058.3481:263177",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/yell-2": {
+  "stamp": "1791918427807.9814:263026",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/yell-3": {
+  "stamp": "1791918445254.2979:264071",
+  "texture": "kept",
+  "height": "none"
+ },
+ "decals/yell-4": {
+  "stamp": "1791918445978.2083:261442",
+  "texture": "kept",
+  "height": "none"
+ },
+ "details/regular/anchors": {
+  "stamp": "1791918537037.7888:251888",
+  "texture": "kept",
+  "height": "none"
+ },
+ "details/regular/shutters-green": {
+  "stamp": "1791918535488.4656:265801",
+  "texture": "kept",
+  "height": "none"
+ },
+ "details/regular/shutters-red": {
+  "stamp": "1791918536257.552:266786",
+  "texture": "kept",
+  "height": "none"
+ },
+ "details/regular/spek-bands": {
+  "stamp": "1791918537822.2324:252363",
+  "texture": "kept",
+  "height": "none"
+ },
+ "details/regular/weather": {
+  "stamp": "1791918538615.3123:269480",
+  "texture": "kept",
+  "height": "none"
+ },
+ "details/specialty/grime": {
+  "stamp": "1791918539390.2842:327724",
+  "texture": "kept",
+  "height": "none"
+ },
+ "roofs/regular/slate": {
+  "stamp": "1791918419457.1128:246029",
+  "texture": "kept",
+  "height": "none"
+ },
+ "roofs/regular/tile": {
+  "stamp": "1791918418707.9426:245242",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/awning-0": {
+  "stamp": "1791918517148.9521:239524",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/awning-1": {
+  "stamp": "1791918517896.5193:238330",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/awning-2": {
+  "stamp": "1791918518648.5483:238329",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/awning-3": {
+  "stamp": "1791918519414.1738:238368",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-0-frituur-t-hoekske": {
+  "stamp": "1791918487960.7244:251569",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-1-bakkerij-de-graanzolder": {
+  "stamp": "1791918489452.074:250622",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-10-pita-de-bosporus": {
+  "stamp": "1791918503795.1763:250149",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-11-dancing": {
+  "stamp": "1791918505296.9727:251017",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-12-slagerij-pieters": {
+  "stamp": "1791918506797.1064:251628",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-13-dagbladhandel": {
+  "stamp": "1791918508813.3965:254640",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-14-nachtwinkel": {
+  "stamp": "1791918510287.3418:251961",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-15-koffiebar-bonne": {
+  "stamp": "1791918511828.345:248987",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-16-kaashandel": {
+  "stamp": "1791918513346.2388:247995",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-17-wafelhuis": {
+  "stamp": "1791918514842.5618:250002",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-18-neuzekes": {
+  "stamp": "1791918516379.4856:250197",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-2-caf-t-klokske": {
+  "stamp": "1791918490985.7346:252157",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-3-apotheek": {
+  "stamp": "1791918493045.4321:246109",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-4-boekhandel-de-kaft": {
+  "stamp": "1791918494533.1956:247814",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-5-chocolatier-verhoeven": {
+  "stamp": "1791918496094.872:253057",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-6-bloemen-mira": {
+  "stamp": "1791918497698.1667:250442",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-7-fietsherstel": {
+  "stamp": "1791918499246.565:257497",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-8-kapsalon-jolien": {
+  "stamp": "1791918500760.972:253515",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/blade-9-frietkot": {
+  "stamp": "1791918502296.4272:249753",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-0-frituur-t-hoekske": {
+  "stamp": "1791918487196.4636:296180",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-1-bakkerij-de-graanzolder": {
+  "stamp": "1791918488696.3252:299071",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-10-pita-de-bosporus": {
+  "stamp": "1791918503044.821:297013",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-11-dancing": {
+  "stamp": "1791918504544.3044:296978",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-12-slagerij-pieters": {
+  "stamp": "1791918506049.1118:294639",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-13-dagbladhandel": {
+  "stamp": "1791918507543.9531:294223",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-14-nachtwinkel": {
+  "stamp": "1791918509536.1965:300223",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-15-koffiebar-bonne": {
+  "stamp": "1791918511061.0327:295112",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-16-kaashandel": {
+  "stamp": "1791918512595.0579:293953",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-17-wafelhuis": {
+  "stamp": "1791918514093.6162:291615",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-18-neuzekes": {
+  "stamp": "1791918515597.4788:291265",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-2-caf-t-klokske": {
+  "stamp": "1791918490195.0613:294316",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-3-apotheek": {
+  "stamp": "1791918491747.8223:293709",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-4-boekhandel-de-kaft": {
+  "stamp": "1791918493786.9294:291037",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-5-chocolatier-verhoeven": {
+  "stamp": "1791918495346.4644:296614",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-6-bloemen-mira": {
+  "stamp": "1791918496901.0952:295195",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-7-fietsherstel": {
+  "stamp": "1791918498489.7969:294631",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-8-kapsalon-jolien": {
+  "stamp": "1791918499998.066:293809",
+  "texture": "kept",
+  "height": "none"
+ },
+ "shops/shopfront-9-frietkot": {
+  "stamp": "1791918501544.5059:291997",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/bus-stop": {
+  "stamp": "1791918474444.7947:249371",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-bikepath": {
+  "stamp": "1791918481094.7642:253789",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-bikestreet30": {
+  "stamp": "1791918477249.788:271001",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-crossing": {
+  "stamp": "1791918481847.9119:249537",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-lez": {
+  "stamp": "1791918475977.6423:269346",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-noentry_bike": {
+  "stamp": "1791918478715.0483:249783",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-noparking": {
+  "stamp": "1791918477983.5542:253880",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-oneway": {
+  "stamp": "1791918479529.5874:244254",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-parking": {
+  "stamp": "1791918480315.8518:245000",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/road-zone30": {
+  "stamp": "1791918475216.1418:266733",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/roadworks": {
+  "stamp": "1791918472902.606:267570",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/tram-stop": {
+  "stamp": "1791918473678.3013:246210",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/type-bike": {
+  "stamp": "1791918483396.8958:274785",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/type-cobble": {
+  "stamp": "1791918484162.6313:265270",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/type-normal": {
+  "stamp": "1791918486448.6655:267216",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/type-park": {
+  "stamp": "1791918484939.6558:267031",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/type-rich": {
+  "stamp": "1791918482640.3088:272453",
+  "texture": "kept",
+  "height": "none"
+ },
+ "signs/type-student": {
+  "stamp": "1791918485696.9353:271918",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/crane-lattice": {
+  "stamp": "1791918459194.7139:239958",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/anno-plaque": {
+  "stamp": "1791918453825.3057:244873",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/brick-arch": {
+  "stamp": "1791918448315.2434:259778",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/clock-face": {
+  "stamp": "1791918454589.7446:257163",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/concrete-pier": {
+  "stamp": "1791918449896.268:245671",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/concrete": {
+  "stamp": "1791918449112.3694:252323",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/gothic": {
+  "stamp": "1791918446742.346:267735",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/mosaic": {
+  "stamp": "1791918452294.0679:342642",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/stadshal-roof": {
+  "stamp": "1791918451497.8682:251578",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/stadshal-wood": {
+  "stamp": "1791918450717.3086:248697",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/stone": {
+  "stamp": "1791918447540.2078:248690",
+  "texture": "kept",
+  "height": "none"
+ },
+ "specialty/landmarks/vooruit-sign": {
+  "stamp": "1791918453057.0505:250634",
+  "texture": "kept",
+  "height": "none"
+ },
+ "student/poster-0": {
+  "stamp": "1791918522412.0312:246192",
+  "texture": "kept",
+  "height": "none"
+ },
+ "student/poster-1": {
+  "stamp": "1791918523160.8608:248004",
+  "texture": "kept",
+  "height": "none"
+ },
+ "student/poster-2": {
+  "stamp": "1791918524498.6436:251001",
+  "texture": "kept",
+  "height": "none"
+ },
+ "student/poster-3": {
+  "stamp": "1791918525212.414:247194",
+  "texture": "kept",
+  "height": "none"
+ },
+ "student/shutters-0": {
+  "stamp": "1791918520163.3113:262554",
+  "texture": "kept",
+  "height": "none"
+ },
+ "student/shutters-1": {
+  "stamp": "1791918520917.126:263727",
+  "texture": "kept",
+  "height": "none"
+ },
+ "student/shutters-2": {
+  "stamp": "1791918521661.9688:263601",
+  "texture": "kept",
+  "height": "none"
+ },
+ "surfaces/asphalt": {
+  "stamp": "1791918413493.9792:353437",
+  "texture": "kept",
+  "height": "none"
+ },
+ "surfaces/bike-road": {
+  "stamp": "1791918415705.8257:350797",
+  "texture": "kept",
+  "height": "none"
+ },
+ "surfaces/cobble": {
+  "stamp": "1791918414185.7385:269025",
+  "texture": "kept",
+  "height": "none"
+ },
+ "surfaces/dirt": {
+  "stamp": "1791918416451.7583:288850",
+  "texture": "kept",
+  "height": "none"
+ },
+ "surfaces/grass": {
+  "stamp": "1791918417198.9744:313397",
+  "texture": "kept",
+  "height": "none"
+ },
+ "surfaces/setts": {
+  "stamp": "1791918414908.072:264124",
+  "texture": "kept",
+  "height": "none"
+ },
+ "surfaces/water": {
+  "stamp": "1791918417949.716:244412",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/car-grille": {
+  "stamp": "1791918461258.7678:240658",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/car-side-estate": {
+  "stamp": "1791918469666.5566:257233",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/car-side-hatch": {
+  "stamp": "1791918468096.1238:257302",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/car-side-mini": {
+  "stamp": "1791918471253.2944:257098",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/car-side-sedan": {
+  "stamp": "1791918468895.4575:256971",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/car-side-suv": {
+  "stamp": "1791918470448.987:258936",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/car-side-van": {
+  "stamp": "1791918472082.0383:255510",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/license-plate": {
+  "stamp": "1791918461962.8557:244733",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/tram-dest-0": {
+  "stamp": "1791918463509.3147:244666",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/tram-dest-1": {
+  "stamp": "1791918464264.28:243335",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/tram-dest-2": {
+  "stamp": "1791918465027.9287:242009",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/tram-dest-3": {
+  "stamp": "1791918465793.3047:243662",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/tram-dest-4": {
+  "stamp": "1791918466538.383:241468",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/tram-dest-5": {
+  "stamp": "1791918467307.6206:242039",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/tram-side": {
+  "stamp": "1791918462728.8657:257053",
+  "texture": "kept",
+  "height": "none"
+ },
+ "vehicles/wheel-rim": {
+  "stamp": "1791918459944.295:270946",
+  "texture": "kept",
+  "height": "none"
+ },
+ "walls/regular/brick": {
+  "stamp": "1791918761552.1663:329992",
+  "texture": "kept",
+  "height": "removed"
+ },
+ "walls/regular/plaster": {
+  "stamp": "1791918526775.6926:315930",
+  "texture": "kept",
+  "height": "none"
+ },
+ "walls/regular/stone": {
+  "stamp": "1791918527559.1555:327003",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/regular/arch-brick": {
+  "stamp": "1791918532317.0063:298426",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/regular/arch-stone": {
+  "stamp": "1791918533105.998:292820",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/regular/cross-green": {
+  "stamp": "1791918529121.844:303211",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/regular/cross-white": {
+  "stamp": "1791918528353.2542:304405",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/regular/sash-dark": {
+  "stamp": "1791918531517.614:291978",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/regular/sash-green": {
+  "stamp": "1791918530740.7065:291724",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/regular/sash-white": {
+  "stamp": "1791918529932.7642:293903",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/specialty/factory-dark": {
+  "stamp": "1791918533900.6729:393299",
+  "texture": "kept",
+  "height": "none"
+ },
+ "windows/specialty/factory-green": {
+  "stamp": "1791918534710.583:393840",
+  "texture": "kept",
+  "height": "none"
+ }
+}

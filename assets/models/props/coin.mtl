@@ -1,0 +1,8 @@
+# materials for props/coin. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_d9a72a
+Kd 0.8510 0.6549 0.1647
+
+newmtl tex_decals-coin_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/decals/coin.png

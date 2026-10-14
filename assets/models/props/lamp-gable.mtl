@@ -1,0 +1,7 @@
+# materials for props/lamp-gable. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_22292a
+Kd 0.1333 0.1608 0.1647
+
+newmtl unlit_plain_ffe3b0
+Kd 1.0000 0.8902 0.6902

@@ -1,0 +1,10 @@
+# materials for buildings/villa-porch. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_f2efe8
+Kd 0.9490 0.9373 0.9098
+
+newmtl plain_d8d1c3
+Kd 0.8471 0.8196 0.7647
+
+newmtl plain_3b2a20
+Kd 0.2314 0.1647 0.1255

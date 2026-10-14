@@ -1,0 +1,4 @@
+# materials for props/trash-bags. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_1d1f22
+Kd 0.1137 0.1216 0.1333

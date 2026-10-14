@@ -1,0 +1,7 @@
+# materials for props/pothole. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_1e1913
+Kd 0.1176 0.0980 0.0745
+
+newmtl plain_8a6d4c
+Kd 0.5412 0.4275 0.2980

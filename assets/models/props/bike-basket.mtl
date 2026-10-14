@@ -1,0 +1,4 @@
+# materials for props/bike-basket. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_9b7a4f
+Kd 0.6078 0.4784 0.3098

@@ -1,0 +1,5 @@
+# materials for buildings/villa-roof. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png

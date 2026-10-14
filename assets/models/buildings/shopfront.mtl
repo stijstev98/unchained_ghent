@@ -1,0 +1,5 @@
+# materials for buildings/shopfront. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl shop_face
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/shops/shopfront-0-frituur-t-hoekske.png

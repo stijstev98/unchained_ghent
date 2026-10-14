@@ -1,0 +1,23 @@
+# materials for landmarks/msk. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-stone_e2dccd
+Kd 0.8863 0.8627 0.8039
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl plain_d9d2c0
+Kd 0.8510 0.8235 0.7529
+
+newmtl plain_8e979e
+Kd 0.5569 0.5922 0.6196
+
+newmtl plain_2a3340
+Kd 0.1647 0.2000 0.2510
+
+newmtl plain_cfc6b0
+Kd 0.8118 0.7765 0.6902
+
+newmtl plain_4a4030
+Kd 0.2902 0.2510 0.1882
+
+newmtl plain_3b2a20
+Kd 0.2314 0.1647 0.1255

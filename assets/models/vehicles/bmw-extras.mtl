@@ -1,0 +1,13 @@
+# materials for vehicles/bmw-extras. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_15171a
+Kd 0.0824 0.0902 0.1020
+
+newmtl plain_3a3d42
+Kd 0.2275 0.2392 0.2588
+
+newmtl plain_c3c7cc
+Kd 0.7647 0.7804 0.8000
+
+newmtl unlit_plain_9fd3ff
+Kd 0.6235 0.8275 1.0000

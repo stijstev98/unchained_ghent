@@ -1,0 +1,7 @@
+# materials for buildings/plinth-bay. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_4f555a
+Kd 0.3098 0.3333 0.3529
+
+newmtl plain_6a7075
+Kd 0.4157 0.4392 0.4588

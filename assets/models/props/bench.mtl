@@ -1,0 +1,7 @@
+# materials for props/bench. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_2b2f33
+Kd 0.1686 0.1843 0.2000
+
+newmtl plain_9a7048
+Kd 0.6039 0.4392 0.2824

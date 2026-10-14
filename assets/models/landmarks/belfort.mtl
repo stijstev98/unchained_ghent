@@ -1,0 +1,26 @@
+# materials for landmarks/belfort. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-gothic_b9b2a2
+Kd 0.7255 0.6980 0.6353
+map_Kd ../../textures/specialty/landmarks/gothic.png
+
+newmtl plain_a59e8e
+Kd 0.6471 0.6196 0.5569
+
+newmtl tex_landmarks-stone_b9b2a2
+Kd 0.7255 0.6980 0.6353
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl plain_3f6a60
+Kd 0.2471 0.4157 0.3765
+
+newmtl plain_1d2a2f
+Kd 0.1137 0.1647 0.1843
+
+newmtl unlit_tex_landmarks-clock-face_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/specialty/landmarks/clock-face.png
+
+newmtl plain_f0c040_e5a3d00
+Kd 0.9412 0.7529 0.2510
+Ke 0.3529 0.2392 0.0000

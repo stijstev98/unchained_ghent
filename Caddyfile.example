@@ -1,0 +1,7 @@
+# Paste this into the Caddyfile you already run. Change the hostname and the port
+# so the port matches PORT in .env. Caddy gets the certificate and proxies to the container.
+
+play.example.com {
+	encode gzip
+	reverse_proxy 127.0.0.1:8080
+}

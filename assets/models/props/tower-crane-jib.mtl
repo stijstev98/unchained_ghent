@@ -1,0 +1,17 @@
+# materials for props/tower-crane-jib. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl dbl_alpha50_tex_buildings-crane-lattice_e8b02e
+Kd 0.9098 0.6902 0.1804
+map_Kd ../../textures/specialty/crane-lattice.png
+
+newmtl plain_9a968c
+Kd 0.6039 0.5882 0.5490
+
+newmtl plain_f2efe8
+Kd 0.9490 0.9373 0.9098
+
+newmtl plain_2b2f33
+Kd 0.1686 0.1843 0.2000
+
+newmtl plain_d23a2a
+Kd 0.8235 0.2275 0.1647

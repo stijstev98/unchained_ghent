@@ -1,0 +1,19 @@
+# materials for landmarks/vleeshuis. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-stone_9a9282
+Kd 0.6039 0.5725 0.5098
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png
+
+newmtl plain_9a9282
+Kd 0.6039 0.5725 0.5098
+
+newmtl plain_2a3340
+Kd 0.1647 0.2000 0.2510
+
+newmtl tex_landmarks-brick-arch_9a9282
+Kd 0.6039 0.5725 0.5098
+map_Kd ../../textures/specialty/landmarks/brick-arch.png

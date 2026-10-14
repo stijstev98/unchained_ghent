@@ -1,0 +1,5 @@
+# materials for buildings/awning. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl awning
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/shops/awning-0.png

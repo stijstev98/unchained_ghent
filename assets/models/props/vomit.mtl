@@ -1,0 +1,5 @@
+# materials for props/vomit. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl alpha35_tex_decals-vomit_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/decals/vomit.png

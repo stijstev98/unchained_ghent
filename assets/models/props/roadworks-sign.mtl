@@ -1,0 +1,11 @@
+# materials for props/roadworks-sign. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_6a6e73
+Kd 0.4157 0.4314 0.4510
+
+newmtl alpha50_tex_signs-roadworks_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/signs/roadworks.png
+
+newmtl plain_26292d
+Kd 0.1490 0.1608 0.1765

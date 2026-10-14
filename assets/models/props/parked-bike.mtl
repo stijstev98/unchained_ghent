@@ -1,0 +1,13 @@
+# materials for props/parked-bike. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_1a1c1f
+Kd 0.1020 0.1098 0.1216
+
+newmtl frame
+Kd 1.0000 0.0000 1.0000
+
+newmtl plain_26292d
+Kd 0.1490 0.1608 0.1765
+
+newmtl plain_b8c0c7
+Kd 0.7216 0.7529 0.7804

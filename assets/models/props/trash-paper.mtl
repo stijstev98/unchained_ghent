@@ -1,0 +1,4 @@
+# materials for props/trash-paper. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl paper
+Kd 0.9569 0.9451 0.9176

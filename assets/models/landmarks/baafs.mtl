@@ -1,0 +1,19 @@
+# materials for landmarks/baafs. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-gothic_b3a993
+Kd 0.7020 0.6627 0.5765
+map_Kd ../../textures/specialty/landmarks/gothic.png
+
+newmtl tex_landmarks-stone_b3a993
+Kd 0.7020 0.6627 0.5765
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl plain_3d4549
+Kd 0.2392 0.2706 0.2863
+
+newmtl plain_a59e8e
+Kd 0.6471 0.6196 0.5569
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png

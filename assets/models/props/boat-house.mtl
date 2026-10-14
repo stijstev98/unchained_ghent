@@ -1,0 +1,43 @@
+# materials for props/boat-house. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl hull
+Kd 0.1686 0.1843 0.2000
+
+newmtl plain_8a6a48
+Kd 0.5412 0.4157 0.2824
+
+newmtl cabin
+Kd 0.9255 0.9098 0.8745
+
+newmtl plain_8e979e
+Kd 0.5569 0.5922 0.6196
+
+newmtl plain_2a3a48
+Kd 0.1647 0.2275 0.2824
+
+newmtl plain_3b2a20
+Kd 0.2314 0.1647 0.1255
+
+newmtl plain_2b2f33
+Kd 0.1686 0.1843 0.2000
+
+newmtl plain_b0603a
+Kd 0.6902 0.3765 0.2275
+
+newmtl plain_4f7a3a
+Kd 0.3098 0.4784 0.2275
+
+newmtl plain_1a1c1f
+Kd 0.1020 0.1098 0.1216
+
+newmtl plain_1f2a3a
+Kd 0.1216 0.1647 0.2275
+
+newmtl plain_26292d
+Kd 0.1490 0.1608 0.1765
+
+newmtl plain_b8c0c7
+Kd 0.7216 0.7529 0.7804
+
+newmtl plain_c9b89a
+Kd 0.7882 0.7216 0.6039

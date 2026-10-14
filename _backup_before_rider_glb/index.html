@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tramspoor 3D</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="frame" id="frame">
+    <canvas id="cv"></canvas>
+    <div class="hud" id="hud" hidden>
+      <div>
+        <div class="sub">Now riding</div>
+        <div class="street" id="hStreet">Nokermarkt</div>
+        <div class="tag" id="hType" hidden></div>
+        <div class="sub" id="hSpeed">22 km/h</div>
+        <div class="helm" id="hHelm">No helmet</div>
+        <div class="helm rain" id="hRain" hidden>Rain · slippery</div>
+      </div>
+      <div class="right">
+        <div class="score" id="hScore">0</div>
+        <div id="hDist">0 m</div>
+        <div class="cub" id="hCub">€ 0</div>
+      </div>
+    </div>
+    <div class="warn" id="warn" hidden>RAIL</div>
+    <div class="bubble" id="ebWarn" hidden>Ring ring!</div>
+    <div class="pops" id="pops"></div>
+    <button class="god" id="godBtn" type="button" aria-pressed="false" title="Invincible (I)">Invincible: off</button>
+    <button class="god cash" id="cashBtn" type="button">Give € 500</button>
+    <div class="ctl" id="ctl" hidden>
+      <div class="pad">
+        <button class="cbtn arrow" type="button" data-k="l" aria-label="Steer left"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4 7 12l8 8"/></svg></button>
+        <button class="cbtn arrow" type="button" data-k="r" aria-label="Steer right"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 8 8-8 8"/></svg></button>
+      </div>
+      <div class="pad grid">
+        <span></span>
+        <button class="cbtn sm" type="button" data-k="bell" aria-label="Ring bell">BELL</button>
+        <button class="cbtn txt" type="button" data-k="br" aria-label="Brake">BRAKE</button>
+        <button class="cbtn txt hot" type="button" data-k="sp" aria-label="Sprint">SPRINT</button>
+      </div>
+    </div>
+
+    <div class="overlay" id="menu">
+      <div class="ticket">
+        <div class="stamp">Gent</div>
+        <div class="eyebrow">Fietsrit · enkel</div>
+        <h1>Tramspoor <span>3D</span></h1>
+        <p>Ride a winding route past the Belfort, along the Graslui, round the Grauwsteen and on to Dok-Doorn. Cross tram rails quickly and at an angle. Linger on one and your front wheel drops into the groove.</p>
+        <dl class="rules">
+          <dt class="key-only">← →</dt><dt class="touch-only">◀ ▶</dt><dd><span class="key-only">Steer</span><span class="touch-only">Steer with the arrow buttons</span></dd>
+          <dt class="key-only">Shift</dt><dt class="touch-only">Sprint</dt><dd>Hold to sprint. Much faster, and much less forgiving.</dd>
+          <dt class="key-only">↓</dt><dt class="touch-only">Brake</dt><dd>Hold to brake down to a crawl.</dd>
+          <dt class="key-only">Space</dt><dt class="touch-only">Bell</dt><dd>Ring your bell. Tourists scatter. On a skateboard or BMX it jumps instead (tap the screen on a phone).</dd>
+          <dt>!</dt><dd>Speeding e-bikes come from behind. When "Ring ring!" pops up in your lane, move.</dd>
+          <dt>A31</dt><dd>Roadworks or a pothole block a lane. A warning sign (20 m) or an orange cone (14 m) stands before it. Knocking those over is fine.</dd>
+          <dt>Signs</dt><dd>Roadside signs announce fietsstraten, kasseien, park paths, the Toverpoort and the Miljardenkwartier. Vomit makes you slip.</dd>
+          <dt>Y</dt><dd>Where the road forks, blue signs show where each side goes. Pick a side before the island.</dd>
+          <dt>Helm</dt><dd>Grab a floating helmet. It absorbs one crash, then breaks.</dd>
+          <dt>€</dt><dd>Grab euro coins (+25 points each). They stay in your wallet for the garage.</dd>
+          <dt>+15</dt><dd>Skim past trams and e-bikes for a close call</dd>
+        </dl>
+        <hr class="perf">
+        <button class="btn" id="startBtn" type="button" disabled>Loading Ghent…</button>
+        <button class="btn alt" id="garageBtn" type="button">Garage · <span class="gw">€ 0</span></button>
+        <div class="meta"><span id="bestMenu">Best: none yet</span><span id="vehMenu">Old stolen bike</span></div>
+      </div>
+    </div>
+
+    <div class="overlay" id="over" hidden>
+      <div class="ticket">
+        <div class="eyebrow" id="oWhere">Nokermarkt · 0 m</div>
+        <h2 id="oHead">Stuck in the rail</h2>
+        <p id="oText"></p>
+        <div class="stats">
+          <div><span>Distance</span><b id="oDist">0 m</b></div>
+          <div><span>Score</span><b id="oScore">0</b></div>
+          <div><span>Best</span><b id="oBest">0</b></div>
+        </div>
+        <div class="bonus" id="oBonus">
+          <div class="brow"><span class="bl">Distance bonus</span><b id="oBonusN"><i class="coin" aria-hidden="true"></i><span id="oBonusV">+€ 0</span></b></div>
+          <div class="bbar" aria-hidden="true"><i id="oBonusBar"></i><em id="oTick1"></em><em id="oTick2"></em></div>
+          <div class="bnote" id="oBonusNote">€1 per 200 m after 500 m · €2 per 200 m past 5 km</div>
+        </div>
+        <hr class="perf">
+        <button class="btn" id="againBtn" type="button">Ride again</button>
+        <button class="btn alt" id="garageBtn2" type="button">Garage · <span class="gw">€ 0</span></button>
+        <div class="meta"><span id="oExtra"></span><span class="key-only">Space or Enter</span></div>
+      </div>
+    </div>
+
+    <div class="overlay garage" id="garage" hidden>
+      <div class="gpanel" role="dialog" aria-labelledby="gTitle">
+        <header class="ghead">
+          <div><div class="eyebrow">Fietsenstalling</div><h2 id="gTitle">Garage</h2></div>
+          <div class="ghr"><div class="wallet" id="gWallet" title="Your wallet">€ 0</div><button class="gx" id="gClose" type="button" aria-label="Close garage">✕</button></div>
+        </header>
+        <div class="gmain">
+          <div class="gstage">
+            <canvas id="gCanvas" aria-hidden="true"></canvas>
+            <button class="gnav prev" id="gPrev" type="button" aria-label="Previous ride">‹</button>
+            <button class="gnav next" id="gNext" type="button" aria-label="Next ride">›</button>
+            <div class="gbadge" id="gBadge"></div>
+            <div class="gcount" id="gCount"></div>
+          </div>
+          <div class="ginfo">
+            <div class="gtitle"><div class="gname" id="gName"></div><div class="gprice" id="gPrice"></div></div>
+            <p class="gdesc" id="gDesc"></p>
+            <div class="gstats" id="gStats"></div>
+            <div class="chips" id="gChips"></div>
+            <div class="gbuy">
+              <button class="btn" id="gAction" type="button"></button>
+              <div class="gneed" id="gNeed" hidden><i><b id="gNeedBar"></b></i><span id="gNeedTxt"></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="gstrip" id="gStrip" role="listbox" aria-label="Rides"></div>
+        <div class="ghint key-only">← → browse · Enter buy or ride · Esc close</div>
+      </div>
+    </div>
+
+    <div class="overlay" id="paused" hidden>
+      <div class="ticket"><h2>Paused</h2><p>Waiting at a red light.</p><button class="btn" id="resumeBtn" type="button">Keep riding</button></div>
+    </div>
+  </div>
+  <div class="hint">← → or A D to steer · ↓ brake · Shift sprint · Space bell · M mute · P pause</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

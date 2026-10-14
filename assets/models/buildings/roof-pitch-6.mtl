@@ -1,0 +1,8 @@
+# materials for buildings/roof-pitch-6. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_e8e2d4
+Kd 0.9098 0.8863 0.8314
+
+newmtl roof_main
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png

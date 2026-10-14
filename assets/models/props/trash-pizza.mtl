@@ -1,0 +1,7 @@
+# materials for props/trash-pizza. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_e8e0cc
+Kd 0.9098 0.8784 0.8000
+
+newmtl plain_c94f3d
+Kd 0.7882 0.3098 0.2392

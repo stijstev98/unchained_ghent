@@ -1,0 +1,17 @@
+{
+  "name": "tramspoor-3d",
+  "private": true,
+  "description": "Tramspoor 3D. The game itself is static files; these scripts are only dev tooling.",
+  "scripts": {
+    "start": "node tools/dev-server.js",
+    "dev": "node tools/dev-server.js --dev",
+    "dev:lan": "node tools/dev-server.js --dev --lan",
+    "textures:build": "node tools/textures/convert.js --all",
+    "textures:make-ai": "node tools/textures/make-ai.js",
+    "textures:new": "node tools/textures/make-ai.js --new"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^0.1.0",
+    "pdfjs-dist": "^5.0.0"
+  }
+}

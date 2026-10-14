@@ -1,0 +1,32 @@
+# materials for landmarks/vooruit. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-stone_b9705a
+Kd 0.7255 0.4392 0.3529
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png
+
+newmtl plain_d9d0bc
+Kd 0.8510 0.8157 0.7373
+
+newmtl tex_landmarks-brick-arch_b9705a
+Kd 0.7255 0.4392 0.3529
+map_Kd ../../textures/specialty/landmarks/brick-arch.png
+
+newmtl plain_6a7076
+Kd 0.4157 0.4392 0.4627
+
+newmtl plain_d42a2a
+Kd 0.8314 0.1647 0.1647
+
+newmtl plain_2a3340
+Kd 0.1647 0.2000 0.2510
+
+newmtl unlit_tex_landmarks-vooruit-sign_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/specialty/landmarks/vooruit-sign.png
+
+newmtl plain_3b2a20
+Kd 0.2314 0.1647 0.1255

@@ -1,0 +1,13 @@
+# materials for vehicles/car-door-van. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl paint
+Kd 1.0000 0.0000 1.0000
+
+newmtl phong_plain_2a3644
+Kd 0.1647 0.2118 0.2667
+
+newmtl plain_1d1f22
+Kd 0.1137 0.1216 0.1333
+
+newmtl plain_2a2d31
+Kd 0.1647 0.1765 0.1922

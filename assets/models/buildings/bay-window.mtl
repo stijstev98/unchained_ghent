@@ -1,0 +1,8 @@
+# materials for buildings/bay-window. 'facade_win' is replaced by the facade texture; the grey is the hidden back and edges.
+
+newmtl facade_win
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/windows/regular/cross-white.png
+
+newmtl plain_9d978a
+Kd 0.6157 0.5922 0.5412

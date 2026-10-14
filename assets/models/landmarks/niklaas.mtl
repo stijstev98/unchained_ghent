@@ -1,0 +1,16 @@
+# materials for landmarks/niklaas. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-gothic_9aa3aa
+Kd 0.6039 0.6392 0.6667
+map_Kd ../../textures/specialty/landmarks/gothic.png
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png
+
+newmtl tex_landmarks-stone_9aa3aa
+Kd 0.6039 0.6392 0.6667
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl plain_3d4549
+Kd 0.2392 0.2706 0.2863

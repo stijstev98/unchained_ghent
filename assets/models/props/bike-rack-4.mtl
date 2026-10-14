@@ -1,0 +1,4 @@
+# materials for props/bike-rack-4. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_b7bdc2
+Kd 0.7176 0.7412 0.7608

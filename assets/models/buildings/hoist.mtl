@@ -1,0 +1,7 @@
+# materials for buildings/hoist. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_3b2a20
+Kd 0.2314 0.1647 0.1255
+
+newmtl plain_2f4a3a
+Kd 0.1843 0.2902 0.2275

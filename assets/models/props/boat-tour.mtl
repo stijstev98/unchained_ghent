@@ -1,0 +1,23 @@
+# materials for props/boat-tour. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl hull
+Kd 0.9412 0.9255 0.8863
+
+newmtl plain_c8202a
+Kd 0.7843 0.1255 0.1647
+
+newmtl plain_8a6a48
+Kd 0.5412 0.4157 0.2824
+
+newmtl plain_2b2f33
+Kd 0.1686 0.1843 0.2000
+
+newmtl tex_shops-awning-0_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/shops/awning-0.png
+
+newmtl plain_1f1c18
+Kd 0.1216 0.1098 0.0941
+
+newmtl plain_c9b89a
+Kd 0.7882 0.7216 0.6039

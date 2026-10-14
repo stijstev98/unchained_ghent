@@ -1,0 +1,8 @@
+# materials for buildings/bay-blank. 'facade_blank' is replaced by the facade texture; the grey is the hidden back and edges.
+
+newmtl facade_blank
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/walls/regular/brick.png
+
+newmtl plain_9d978a
+Kd 0.6157 0.5922 0.5412

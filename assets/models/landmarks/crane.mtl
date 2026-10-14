@@ -1,0 +1,10 @@
+# materials for landmarks/crane. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_e0aa2e
+Kd 0.8784 0.6667 0.1804
+
+newmtl plain_3d4549
+Kd 0.2392 0.2706 0.2863
+
+newmtl plain_2b2f33
+Kd 0.1686 0.1843 0.2000

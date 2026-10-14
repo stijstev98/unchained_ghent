@@ -1,0 +1,18 @@
+# materials for landmarks/gravensteen. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-stone_8f8a7e
+Kd 0.5608 0.5412 0.4941
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl tex_landmarks-gothic_8f8a7e
+Kd 0.5608 0.5412 0.4941
+map_Kd ../../textures/specialty/landmarks/gothic.png
+
+newmtl plain_3d4549
+Kd 0.2392 0.2706 0.2863
+
+newmtl plain_2a2018
+Kd 0.1647 0.1255 0.0941
+
+newmtl plain_8f8a7e
+Kd 0.5608 0.5412 0.4941

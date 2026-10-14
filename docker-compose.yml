@@ -1,0 +1,13 @@
+# Public beta. The container only serves the game. Your existing Caddy does HTTPS.
+#
+#   cp .env.example .env
+#   docker compose up -d --build
+#
+# Then add the site block from Caddyfile.example to the Caddyfile on this machine.
+
+services:
+  tramspoor:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${PORT:-8080}:80"

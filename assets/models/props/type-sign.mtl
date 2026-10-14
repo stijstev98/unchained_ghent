@@ -1,0 +1,8 @@
+# materials for props/type-sign. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_8e9399
+Kd 0.5569 0.5765 0.6000
+
+newmtl sign_face
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/signs/type-bike.png

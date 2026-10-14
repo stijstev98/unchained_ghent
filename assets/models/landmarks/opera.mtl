@@ -1,0 +1,15 @@
+# materials for landmarks/opera. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-stone_d9d2c0
+Kd 0.8510 0.8235 0.7529
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl plain_d2cab6
+Kd 0.8235 0.7922 0.7137
+
+newmtl tex_landmarks-brick-arch_d9d2c0
+Kd 0.8510 0.8235 0.7529
+map_Kd ../../textures/specialty/landmarks/brick-arch.png
+
+newmtl plain_8e979e
+Kd 0.5569 0.5922 0.6196

@@ -1,0 +1,50 @@
+# materials for landmarks/graslei. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-stone_8f8a7e
+Kd 0.5608 0.5412 0.4941
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png
+
+newmtl plain_8f8a7e
+Kd 0.5608 0.5412 0.4941
+
+newmtl plain_2a3340
+Kd 0.1647 0.2000 0.2510
+
+newmtl plain_3b2a20
+Kd 0.2314 0.1647 0.1255
+
+newmtl tex_landmarks-gothic_c9b98e
+Kd 0.7882 0.7255 0.5569
+map_Kd ../../textures/specialty/landmarks/gothic.png
+
+newmtl plain_c9b98e
+Kd 0.7882 0.7255 0.5569
+
+newmtl tex_landmarks-stone_d9d2c0
+Kd 0.8510 0.8235 0.7529
+map_Kd ../../textures/specialty/landmarks/stone.png
+
+newmtl plain_d9d2c0
+Kd 0.8510 0.8235 0.7529
+
+newmtl tex_landmarks-gothic_d7c38a
+Kd 0.8431 0.7647 0.5412
+map_Kd ../../textures/specialty/landmarks/gothic.png
+
+newmtl plain_d7c38a
+Kd 0.8431 0.7647 0.5412
+
+newmtl tex_landmarks-brick-arch_a85a46
+Kd 0.6588 0.3529 0.2745
+map_Kd ../../textures/specialty/landmarks/brick-arch.png
+
+newmtl tex_roofs-tile_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/tile.png
+
+newmtl plain_a85a46
+Kd 0.6588 0.3529 0.2745

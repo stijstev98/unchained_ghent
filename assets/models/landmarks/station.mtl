@@ -1,0 +1,16 @@
+# materials for landmarks/station. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl tex_landmarks-brick-arch_b4624a
+Kd 0.7059 0.3843 0.2902
+map_Kd ../../textures/specialty/landmarks/brick-arch.png
+
+newmtl tex_roofs-slate_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/roofs/regular/slate.png
+
+newmtl plain_1d2a2f
+Kd 0.1137 0.1647 0.1843
+
+newmtl unlit_tex_landmarks-clock-face_ffffff
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/specialty/landmarks/clock-face.png

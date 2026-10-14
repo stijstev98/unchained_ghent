@@ -1,0 +1,21 @@
+# materials for props/tram-stop. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl plain_3a3f44
+Kd 0.2275 0.2471 0.2667
+
+newmtl plain_ffd200
+Kd 1.0000 0.8235 0.0000
+
+newmtl glass_dbl_plain_bcd3df_o35
+Kd 0.7373 0.8275 0.8745
+d 0.350
+
+newmtl plain_8a6a48
+Kd 0.5412 0.4157 0.2824
+
+newmtl plain_d0d4d7
+Kd 0.8157 0.8314 0.8431
+
+newmtl stop_sign
+Kd 1.0000 1.0000 1.0000
+map_Kd ../../textures/signs/tram-stop.png

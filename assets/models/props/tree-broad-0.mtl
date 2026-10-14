@@ -1,0 +1,4 @@
+# materials for props/tree-broad-0. Kd = colour, Ke = glow, d = opacity, map_Kd = texture. See js/render/obj.js for the name flags.
+
+newmtl vcol_plain_ffffff
+Kd 1.0000 1.0000 1.0000
